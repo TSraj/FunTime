@@ -9,10 +9,12 @@
         <h2>Do You Want a surprise??</h2>
         <h2>If Yes then click me</h2>
         <p id="bob">You are about get amazed.</p>
-        <button id="button" onclick='document.getElementById("bob").innerHTML="So, you think you are ready??"'>Click Me.</button><br>
-        <button onclick='document.getElementById("myImage").src="bulbon.gif"'>Turn On</button>
-        <img src="bulboff.gif" id="myImage" style="width: 100px;" alt="">
-        <button onclick='document.getElementById("myImage").src="bulboff.gif"'>Turn OFF</button>
-
+        <button id="button" onclick='document.getElementById("bob").innerHTML="So, you think you are ready??"'>Click Me.</button><br><br><br>
+        <button id="button2" onclick='document.getElementById("demo").style.display="block"'>Touch Me</button><br><br><br>
+        <div id="demo" style="display:none">
+            <button onclick='document.getElementById("myImage").src="bulbon.gif"'>Turn On</button>
+            <img src="bulboff.gif" id="myImage" style="width: 100px;" alt="">
+            <button onclick='document.getElementById("myImage").src="bulboff.gif"'>Turn OFF</button>
+        </div>
 </body>
 </html>
